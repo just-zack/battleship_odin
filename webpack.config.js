@@ -6,7 +6,9 @@ const { type } = require("os");
 module.exports = {
   mode: "development",
   entry: {
-    index: "./src/index.js",
+    gameHandler: "./src/gameHandler.js",
+    displayHandler: "./src/displayHandler.js",
+    controller: "./src/controller.js",
   },
   devtool: "inline-source-map",
   plugins: [
